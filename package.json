@@ -1,0 +1,24 @@
+{
+  "name": "hapi-api-builder",
+  "version": "1.0.0",
+  "description": "A build engine for RESTful and GraphQL APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jdgriffith/hapi-api-builder.git"
+  },
+  "keywords": [
+    "API",
+    "Hapi",
+    "Generator"
+  ],
+  "author": "Justin Griffith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdgriffith/hapi-api-builder/issues"
+  },
+  "homepage": "https://github.com/jdgriffith/hapi-api-builder#readme"
+}
