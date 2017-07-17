@@ -6,6 +6,7 @@
   "scripts": {
     "precommit": "npm run build && npm run lint",
     "prepush": "npm run build && npm run lint && npm test",
+    "prepublish": "npm run build && npm run lint && npm test",
     "lint": "eslint src",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "tdd": "ava --watch",
@@ -64,6 +65,9 @@
   "nyc": {
     "cache": true
   },
+  "files": [
+    "build"
+  ],
   "ava": {
     "source": [
       "src/**/*.js",
